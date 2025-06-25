@@ -5,7 +5,7 @@
   "WinboxDescription": "example application on winforms",
   "OemKey": "",
   "UseOemKey": false,
-  "ProgramName": null,
+  "ProgramName": "Release\\net8.0-windows\\ExampleApplication.exe",
   "ProgramArgs": "",
   "RawCommand": "",
   "WebSite": "",
@@ -17,7 +17,8 @@
   "ProgramType": 0,
   "TweakList": [
     "Disable boot logo",
-    "Disable boot circle"
+    "Disable boot circle",
+    "Integrate net 8.0.17"
   ],
   "CustomBootLogo": null
 }
