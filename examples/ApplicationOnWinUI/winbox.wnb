@@ -1,6 +1,6 @@
 {
-  "BaseWindowsImage": "D:\\OSImages\\en_windows_10_enterprise_x64.iso",
-  "BaseWindowsVersion": "Windows 10 Enterprise",
+  "BaseWindowsImage": "D:\\OSImages\\en_windows_10_enterprise_x64_22h2.iso",
+  "BaseWindowsVersion": "Windows 10 Enterprise Evaluation",
   "WinboxName": "winbox winUI example",
   "WinboxDescription": "example application on WinUI for winbox\nattention. does not work on the current version of winbox maker 1.1.0",
   "OemKey": "",
@@ -16,9 +16,10 @@
   "Architecture": "x64",
   "ProgramType": 0,
   "TweakList": [
-    "Integrate net 8.0.17",
     "Disable boot circle",
-    "Disable boot logo"
+    "Disable boot logo",
+    "Integrate app runtime 1.7.3",
+    "Integrate net 8.0.17"
   ],
   "CustomBootLogo": null
 }
