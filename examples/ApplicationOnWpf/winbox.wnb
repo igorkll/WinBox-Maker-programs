@@ -25,5 +25,6 @@
   "CustomBootLogo": null,
   "AddVirtualDisplay": false,
   "VirtualDisplayWidth": 960,
-  "VirtualDisplayHeight": 640
+  "VirtualDisplayHeight": 640,
+  "UseEmbeddedDisplay": false
 }

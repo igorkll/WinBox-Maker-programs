@@ -1,11 +1,11 @@
 {
   "BaseWindowsImage": "D:\\OSImages\\en_windows_10_enterprise_x64_22h2.iso",
   "BaseWindowsVersion": "Windows 10 Enterprise Evaluation",
-  "WinboxName": "winbox winUI example",
-  "WinboxDescription": "example application on WinUI for winbox",
+  "WinboxName": "ScrapMechanic OS",
+  "WinboxDescription": "arcade machine with ScrapMechanic game",
   "OemKey": "",
   "UseOemKey": false,
-  "ProgramName": "x64\\Release\\net8.0-windows10.0.19041.0\\winUItest.exe",
+  "ProgramName": "start.bat",
   "ProgramArgs": "",
   "RawCommand": "",
   "WebSite": "",
@@ -18,13 +18,12 @@
   "Architecture": "x64",
   "ProgramType": 0,
   "TweakList": [
+    "Integrate vc redist",
     "Disable boot circle",
-    "Disable boot logo",
-    "Integrate app runtime 1.7.3",
-    "Integrate net 8.0.17"
+    "Hide Cursor"
   ],
-  "CustomBootLogo": null,
-  "AddVirtualDisplay": false,
+  "CustomBootLogo": "logo.png",
+  "AddVirtualDisplay": true,
   "VirtualDisplayWidth": 960,
   "VirtualDisplayHeight": 640,
   "UseEmbeddedDisplay": false
