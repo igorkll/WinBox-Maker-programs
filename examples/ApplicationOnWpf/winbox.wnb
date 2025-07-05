@@ -11,6 +11,8 @@
   "WebSite": "",
   "PostInstall_bat": null,
   "PostInstall_reg": null,
+  "PostInstall_user_bat": null,
+  "PostInstall_user_reg": null,
   "WebSessionTimeout": 0,
   "ScreenTimeout": 0,
   "Architecture": "x64",
@@ -20,5 +22,8 @@
     "Disable boot logo",
     "Integrate net 8.0.17"
   ],
-  "CustomBootLogo": null
+  "CustomBootLogo": null,
+  "AddVirtualDisplay": false,
+  "VirtualDisplayWidth": 960,
+  "VirtualDisplayHeight": 640
 }
