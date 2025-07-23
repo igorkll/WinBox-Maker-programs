@@ -23,7 +23,7 @@
     "Hide Cursor"
   ],
   "CustomBootLogo": "logo.png",
-  "AddVirtualDisplay": true,
+  "AddVirtualDisplay": false,
   "VirtualDisplayWidth": 960,
   "VirtualDisplayHeight": 640,
   "UseEmbeddedDisplay": false,
