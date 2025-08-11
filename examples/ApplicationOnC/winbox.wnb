@@ -17,14 +17,38 @@
   "ScreenTimeout": 0,
   "Architecture": "x64",
   "ProgramType": 0,
+  "LaunchMode": 0,
   "TweakList": [
     "Hide Cursor",
     "Disable boot circle",
     "Disable boot logo",
-    "Integrate vc redist"
+    "Integrate vc redist",
+    "Disable boot messages"
   ],
   "CustomBootLogo": null,
   "AddVirtualDisplay": false,
   "VirtualDisplayWidth": 960,
-  "VirtualDisplayHeight": 640
+  "VirtualDisplayHeight": 640,
+  "UseEmbeddedDisplay": false,
+  "CustomBootLogo_centering": false,
+  "prebuildEnabled": false,
+  "prebuildEvent": "",
+  "postbuildEnabled": false,
+  "postbuildEvent": "",
+  "winmountedEnabled": false,
+  "winmountedEvent": "",
+  "pythonVersion": "none",
+  "downloadEnabled": false,
+  "buildEnabled": true,
+  "DownloadItems": [],
+  "BuildItems": [
+    {
+      "name": "main",
+      "type": 0,
+      "msbuild_path": "InformationPanel\\InformationPanel.sln",
+      "msbuild_configuration": "Release",
+      "subdirectory": "",
+      "subdirectory_enabled": false
+    }
+  ]
 }

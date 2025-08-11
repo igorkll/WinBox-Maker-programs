@@ -11,13 +11,33 @@
   "WebSite": "C:\\WinboxProgram\\app.html",
   "PostInstall_bat": null,
   "PostInstall_reg": null,
+  "PostInstall_user_bat": null,
+  "PostInstall_user_reg": null,
   "WebSessionTimeout": 0,
   "ScreenTimeout": 3,
   "Architecture": "x64",
   "ProgramType": 2,
+  "LaunchMode": 0,
   "TweakList": [
     "Integrate microsoft edge",
-    "Disable boot circle"
+    "Disable boot circle",
+    "Disable boot messages"
   ],
-  "CustomBootLogo": "logo.bmp"
+  "CustomBootLogo": "logo.png",
+  "AddVirtualDisplay": false,
+  "VirtualDisplayWidth": 960,
+  "VirtualDisplayHeight": 640,
+  "UseEmbeddedDisplay": false,
+  "CustomBootLogo_centering": false,
+  "prebuildEnabled": false,
+  "prebuildEvent": "",
+  "postbuildEnabled": false,
+  "postbuildEvent": "",
+  "winmountedEnabled": false,
+  "winmountedEvent": "",
+  "pythonVersion": "none",
+  "downloadEnabled": false,
+  "buildEnabled": false,
+  "DownloadItems": [],
+  "BuildItems": []
 }

@@ -5,7 +5,7 @@
   "WinboxDescription": "example application on WinUI for winbox",
   "OemKey": "",
   "UseOemKey": false,
-  "ProgramName": "x64\\Release\\net8.0-windows10.0.19041.0\\winUItest.exe",
+  "ProgramName": "winUItest.exe",
   "ProgramArgs": "",
   "RawCommand": "",
   "WebSite": "",
@@ -17,15 +17,38 @@
   "ScreenTimeout": 0,
   "Architecture": "x64",
   "ProgramType": 0,
+  "LaunchMode": 0,
   "TweakList": [
     "Disable boot circle",
     "Disable boot logo",
     "Integrate app runtime 1.7.3",
-    "Integrate net 8.0.17"
+    "Integrate net 8.0.17",
+    "Disable boot messages"
   ],
   "CustomBootLogo": null,
   "AddVirtualDisplay": false,
   "VirtualDisplayWidth": 960,
   "VirtualDisplayHeight": 640,
-  "UseEmbeddedDisplay": false
+  "UseEmbeddedDisplay": false,
+  "CustomBootLogo_centering": false,
+  "prebuildEnabled": false,
+  "prebuildEvent": "",
+  "postbuildEnabled": false,
+  "postbuildEvent": "",
+  "winmountedEnabled": false,
+  "winmountedEvent": "",
+  "pythonVersion": "",
+  "downloadEnabled": false,
+  "buildEnabled": true,
+  "DownloadItems": [],
+  "BuildItems": [
+    {
+      "name": "main",
+      "type": 0,
+      "msbuild_path": "winUItest\\winUItest.sln",
+      "msbuild_configuration": "Release",
+      "subdirectory": "",
+      "subdirectory_enabled": false
+    }
+  ]
 }
