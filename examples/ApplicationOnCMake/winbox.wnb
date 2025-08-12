@@ -37,7 +37,7 @@
   "postbuildEvent": "",
   "winmountedEnabled": false,
   "winmountedEvent": "",
-  "pythonVersion": "none",
+  "pythonVersion": null,
   "downloadEnabled": false,
   "buildEnabled": true,
   "DownloadItems": [],
