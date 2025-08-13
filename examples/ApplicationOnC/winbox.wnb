@@ -45,10 +45,12 @@
     {
       "name": "main",
       "type": 0,
+      "subdirectory": "",
+      "subdirectory_enabled": false,
       "msbuild_path": "InformationPanel\\InformationPanel.sln",
       "msbuild_configuration": "Release",
-      "subdirectory": "",
-      "subdirectory_enabled": false
+      "cmake_path": null,
+      "cmake_configuration": null
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "BaseWindowsImage": "D:\\OSImages\\en_windows_10_enterprise_x64.iso",
   "BaseWindowsVersion": "Windows 10 Enterprise",
-  "WinboxName": "Application on rust",
-  "WinboxDescription": "demonstrates how winbox maker works with the \u0022cargo\u0022 build system",
+  "WinboxName": "custom build system",
+  "WinboxDescription": "demonstrates the possibility of using a custom build system to build a user application for winbox maker.\nalthough in fact, files are simply copied here and it is not necessary to use the build system here, this demonstrates the functionality",
   "OemKey": "",
   "UseOemKey": false,
-  "ProgramName": "ExampleRustApp.exe",
+  "ProgramName": null,
   "ProgramArgs": "",
-  "RawCommand": "",
+  "RawCommand": "wscript C:\\WinboxProgram\\test.vbs",
   "WebSite": "",
   "PostInstall_bat": null,
   "PostInstall_reg": null,
@@ -16,13 +16,11 @@
   "WebSessionTimeout": 0,
   "ScreenTimeout": 0,
   "Architecture": "x64",
-  "ProgramType": 0,
+  "ProgramType": 1,
   "LaunchMode": 0,
   "TweakList": [
-    "Hide Cursor",
-    "Disable boot circle",
-    "Disable boot logo",
     "Integrate vc redist",
+    "Disable boot circle",
     "Disable boot messages"
   ],
   "CustomBootLogo": null,
@@ -44,14 +42,16 @@
   "BuildItems": [
     {
       "name": "main",
-      "type": 2,
+      "type": 3,
       "subdirectory": "",
       "subdirectory_enabled": false,
       "msbuild_path": "",
       "msbuild_configuration": "Release",
       "cmake_path": "",
       "cmake_configuration": "Release",
-      "cargo_path": "ExampleRustApp\\Cargo.toml"
+      "cargo_path": "",
+      "custom_path": "CustomBuildSystemExample",
+      "custom_command": "xcopy \u0022%~1\\*\u0022 \u0022%~2\\\u0022 /E /I /Y"
     }
   ]
 }
