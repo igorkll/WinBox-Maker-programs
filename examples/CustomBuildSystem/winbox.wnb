@@ -21,7 +21,8 @@
   "TweakList": [
     "Integrate vc redist",
     "Disable boot circle",
-    "Disable boot messages"
+    "Disable boot messages",
+    "Disable boot logo"
   ],
   "CustomBootLogo": null,
   "AddVirtualDisplay": false,
