@@ -44,10 +44,15 @@
     {
       "name": "main",
       "type": 0,
+      "subdirectory": "",
+      "subdirectory_enabled": false,
       "msbuild_path": "ExampleApplication\\ExampleApplication.sln",
       "msbuild_configuration": "Release",
-      "subdirectory": "",
-      "subdirectory_enabled": false
+      "cmake_path": null,
+      "cmake_configuration": null,
+      "cargo_path": null,
+      "custom_path": null,
+      "custom_command": null
     }
   ]
 }
