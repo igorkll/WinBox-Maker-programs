@@ -46,7 +46,8 @@
     "remove OneDrive",
     "Disable system integrity checks",
     "Disable HyperV / VSM / ELAM",
-    "completely remove explorer.exe"
+    "completely remove explorer.exe",
+    "Do not disable hotkeys by changing the layout"
   ],
   "TweakListLevel": 2,
   "CustomBootLogo": "logo.png",
