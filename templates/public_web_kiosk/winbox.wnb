@@ -1,6 +1,6 @@
 {
-  "winboxMakerVersion": 10800,
-  "winboxMakerVersionStr": "1.8.0",
+  "winboxMakerVersion": 10801,
+  "winboxMakerVersionStr": "1.8.1",
   "BaseWindowsImage": "D:\\OSImages\\en_windows_10_enterprise_x64.iso",
   "BaseWindowsVersion": "Windows 10 Enterprise",
   "WinboxName": "Public web kiosk",
@@ -42,11 +42,13 @@
     "Disable system integrity checks",
     "Disable HyperV / VSM / ELAM",
     "remove windows defender files",
-    "completely remove explorer.exe",
     "Hide system errors",
-    "remove OneDrive"
+    "remove OneDrive",
+    "Disable system integrity checks",
+    "Disable HyperV / VSM / ELAM",
+    "completely remove explorer.exe"
   ],
-  "TweakListLevel": 0,
+  "TweakListLevel": 2,
   "CustomBootLogo": "logo.png",
   "AddVirtualDisplay": false,
   "VirtualDisplayWidth": 960,
@@ -64,6 +66,22 @@
     {
       "string1": "US (00000409)",
       "string2": "00000409"
+    },
+    {
+      "string1": "Russian (00000419)",
+      "string2": "00000419"
+    },
+    {
+      "string1": "Belarusian (00000423)",
+      "string2": "00000423"
+    },
+    {
+      "string1": "Ukrainian (00000422)",
+      "string2": "00000422"
+    },
+    {
+      "string1": "Polish (214) (00010415)",
+      "string2": "00010415"
     }
   ],
   "keyboard_layouts_firstAdded": true,
