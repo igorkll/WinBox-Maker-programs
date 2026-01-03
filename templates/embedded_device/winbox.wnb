@@ -1,6 +1,6 @@
 {
-  "winboxMakerVersion": 10800,
-  "winboxMakerVersionStr": "1.8.0",
+  "winboxMakerVersion": 10801,
+  "winboxMakerVersionStr": "1.8.1",
   "BaseWindowsImage": "",
   "BaseWindowsVersion": null,
   "WinboxName": "Embedded device",

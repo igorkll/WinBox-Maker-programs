@@ -1,0 +1,5 @@
+attrib +h +s +r "C:\Windows"
+attrib +h +s +r "C:\PerfLogs"
+attrib +h +s +r "c:\WinboxProgram"
+attrib +h +s +r "c:\WinboxResources"
+attrib +h +s +r "c:\WinboxApi"
