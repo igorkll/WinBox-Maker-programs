@@ -212,7 +212,7 @@
     "recovery_autoFlashQuietMode": 0
   },
   "installer_winPE_mod": {
-    "enabled": false,
+    "enabled": true,
     "applyBaseSystemBCD": true,
     "remove_cmd_exe": false,
     "app_override": false,
@@ -239,7 +239,7 @@
     "recovery_allowAutoFlash": true,
     "recovery_autoFlashQuietMode": 0
   },
-  "install_bypass": false,
+  "install_bypass": true,
   "keyboard_filter_enabled": true,
   "keyboard_filter_blockList": [
     "Alt\u002BF4",
