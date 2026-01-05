@@ -113,7 +113,7 @@
   "logoBeforeApp": null,
   "logoBeforeApp_stretch": 0,
   "wait_before_app_logo": true,
-  "delete_paths": "Program Files (x86)\\Microsoft\\Edge\nProgram Files (x86)\\Microsoft\\EdgeUpdate\nWindows\\System32\\SnippingTool.exe\nWindows\\SysWOW64\\SnippingTool.exe",
+  "delete_paths": "",
   "delete_dism": "",
   "delete_dism_universal": "",
   "delete_dism_remove_package": "",

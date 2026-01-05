@@ -264,7 +264,7 @@
   "firewall_disable": true,
   "app_runAsSystem": false,
   "app_uwp": "windows.immersivecontrolpanel_cw5n1h2txyewy!App",
-  "dism_cleanup": true,
+  "dism_cleanup": false,
   "debloatware_excludeAll": false,
   "debloatware_exclude": ""
 }

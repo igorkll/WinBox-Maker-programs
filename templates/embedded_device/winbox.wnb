@@ -50,7 +50,8 @@
     "Disable security mitigations (performance boost)",
     "Hide system errors",
     "Disable system integrity checks",
-    "Disable HyperV / VSM / ELAM"
+    "Disable HyperV / VSM / ELAM",
+    "Hide Cursor"
   ],
   "TweakListLevel": 2,
   "CustomBootLogo": "logo.png",
