@@ -1,8 +1,8 @@
 {
   "winboxMakerVersion": 10801,
   "winboxMakerVersionStr": "1.8.1",
-  "BaseWindowsImage": "",
-  "BaseWindowsVersion": null,
+  "BaseWindowsImage": "D:\\OSImages\\windows_10_pro_uupdump.ISO",
+  "BaseWindowsVersion": "Windows 10 Pro",
   "WinboxName": "Cleaned windows",
   "WinboxDescription": "this example demonstrates the ability to cut out most of the junk from Windows. This example is for use on a desktop where you want to get the cleanest possible build of windows. THIS IS NOT AN EMBEDDED ASSEMBLY IN ITS PURE FORM! you can use it as a template for embedded to reduce the space occupied by the system on the embedded device, but do not forget to change \u0022app\u003Elaunch\u0022 to \u0022launch instead of desktop\u0022. however, for embedded, I recommend simply applying the \u0022removing Windows/System apps\u0022 patch, which will remove almost the entire UX of windows at once, but your shell (if it is not UWP) will work.",
   "OemKey": "",
@@ -113,7 +113,7 @@
   "logoBeforeApp": null,
   "logoBeforeApp_stretch": 0,
   "wait_before_app_logo": true,
-  "delete_paths": "Program Files (x86)\\Microsoft\\Edge\nProgram Files (x86)\\Microsoft\\EdgeUpdate\nWindows\\SystemApps\\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\nWindows\\SystemApps\\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy\nWindows\\System32\\SnippingTool.exe\nWindows\\SysWOW64\\SnippingTool.exe\n\nProgram Files (x86)\\Windows Defender\nProgram Files\\Windows Defender\nProgram Files\\Windows Defender Advanced Threat Protection",
+  "delete_paths": "Program Files (x86)\\Microsoft\\Edge\nProgram Files (x86)\\Microsoft\\EdgeUpdate\nWindows\\System32\\SnippingTool.exe\nWindows\\SysWOW64\\SnippingTool.exe",
   "delete_dism": "",
   "delete_dism_universal": "",
   "delete_dism_remove_package": "",
@@ -180,7 +180,7 @@
   "installerMountedEarlyEvent": "",
   "installerMountedEarly_breakbefore": false,
   "installerMountedEarly_breakafter": false,
-  "schtasks_stopOrDelete": "Microsoft\\Windows\\Settings\nMicrosoft\\Windows\\Shell\nMicrosoft\\Windows\\Explorer\n\\Microsoft\\Windows\\Application Experience\\Microsoft Compatibility Appraiser\n\\Microsoft\\Windows\\Application Experience\\ProgramDataUpdater\n\\Microsoft\\Windows\\Autochk\\Proxy\n\\Microsoft\\Windows\\Customer Experience Improvement Program\\Consolidator\n\\Microsoft\\Windows\\Customer Experience Improvement Program\\KernelCeipTask\n\\Microsoft\\Windows\\Customer Experience Improvement Program\\UsbCeip\n\\Microsoft\\Windows\\Application Experience\\AitAgent\n\\Microsoft\\Windows\\DiskDiagnostic\\Microsoft-Windows-DiskDiagnosticDataCollector\n\\Microsoft\\Windows\\Maintenance\\WinSAT\n\\Microsoft\\Windows\\Media Center\\ActivateWindowsSearch\n\\Microsoft\\Windows\\Media Center\\ConfigureInternetTimeService\n\\Microsoft\\Windows\\Media Center\\DispatchRecoveryTasks\n\\Microsoft\\Windows\\Media Center\\ehDRMInit\n\\Microsoft\\Windows\\Media Center\\InstallPlayReady\n\\Microsoft\\Windows\\Media Center\\mcupdate\n\\Microsoft\\Windows\\Media Center\\MediaCenterRecoveryTask\n\\Microsoft\\Windows\\Media Center\\ObjectStoreRecoveryTask\n\\Microsoft\\Windows\\Media Center\\OCURActivate\n\\Microsoft\\Windows\\Media Center\\OCURDiscovery\n\\Microsoft\\Windows\\Media Center\\PBDADiscovery\n\\Microsoft\\Windows\\Media Center\\PBDADiscoveryW1\n\\Microsoft\\Windows\\Media Center\\PBDADiscoveryW2\n\\Microsoft\\Windows\\Media Center\\PvrRecoveryTask\n\\Microsoft\\Windows\\Media Center\\PvrScheduleTask\n\\Microsoft\\Windows\\Media Center\\RegisterSearch\n\\Microsoft\\Windows\\Media Center\\ReindexSearchRoot\n\\Microsoft\\Windows\\Media Center\\SqlLiteRecoveryTask\n\\Microsoft\\Windows\\Media Center\\UpdateRecordPath\n\\Microsoft\\Windows\\UpdateOrchestrator\\Schedule Scan\n\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\n\\Microsoft\\Windows\\DiskCleanup\\SilentCleanup",
+  "schtasks_stopOrDelete": "",
   "schtasks_stopOrDelete_deleteFromList": "",
   "schtasks_stopOrDeleteOnlyFromList": false,
   "recovery_winPE_mod": {
