@@ -5,6 +5,7 @@
   "BaseWindowsVersion": null,
   "WinboxName": "Embedded device",
   "WinboxDescription": "This template is designed for embedded devices that are located in the end user\u0027s home and are sold already flashed (not public kiosks). The difference is not great, but it is there. mainly because winbox maker recovery is enabled here, which allows you to update the device software.\nThis device can be a smart home control panel, an oscilloscope, or anything else that is sold as a legitimate device and the user may not even know that it runs on Windows.\nconfigure the compilation of your application on the \u0022build\u0022 tab and its launch on the \u0022app\u0022 tab",
+  "createdFromTemplate": null,
   "OemKey": "",
   "ProgramName": "you_shell_exe.exe",
   "ProgramArgs": "",
@@ -51,9 +52,11 @@
     "Hide system errors",
     "Disable system integrity checks",
     "Disable HyperV / VSM / ELAM",
-    "Hide Cursor"
+    "Hide Cursor",
+    "remove windows defender files",
+    "remove OneDrive"
   ],
-  "TweakListLevel": 2,
+  "TweakListLevel": 3,
   "CustomBootLogo": "logo.png",
   "AddVirtualDisplay": false,
   "VirtualDisplayWidth": 960,
