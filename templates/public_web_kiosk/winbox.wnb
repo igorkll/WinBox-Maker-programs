@@ -288,5 +288,10 @@
   "keyboard_filter_ForceOffAccessibility": true,
   "regtweak_overwrite_en": false,
   "regtweak_overwrite": null,
-  "firewall_disable": true
+  "firewall_disable": true,
+  "app_runAsSystem": false,
+  "app_uwp": "windows.immersivecontrolpanel_cw5n1h2txyewy!App",
+  "dism_cleanup": true,
+  "debloatware_excludeAll": false,
+  "debloatware_exclude": ""
 }

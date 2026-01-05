@@ -1,6 +1,6 @@
 {
-  "winboxMakerVersion": 10800,
-  "winboxMakerVersionStr": "1.8.0",
+  "winboxMakerVersion": 10801,
+  "winboxMakerVersionStr": "1.8.1",
   "BaseWindowsImage": null,
   "BaseWindowsVersion": null,
   "WinboxName": "Repack windows",
@@ -40,9 +40,11 @@
     "Disable boot circle",
     "Disable boot messages",
     "Disable system integrity checks",
+    "Disable HyperV / VSM / ELAM",
+    "Disable system integrity checks",
     "Disable HyperV / VSM / ELAM"
   ],
-  "TweakListLevel": 0,
+  "TweakListLevel": 2,
   "CustomBootLogo": null,
   "AddVirtualDisplay": false,
   "VirtualDisplayWidth": 960,
@@ -259,5 +261,10 @@
   "keyboard_filter_ForceOffAccessibility": true,
   "regtweak_overwrite_en": false,
   "regtweak_overwrite": null,
-  "firewall_disable": true
+  "firewall_disable": true,
+  "app_runAsSystem": false,
+  "app_uwp": "windows.immersivecontrolpanel_cw5n1h2txyewy!App",
+  "dism_cleanup": true,
+  "debloatware_excludeAll": false,
+  "debloatware_exclude": ""
 }

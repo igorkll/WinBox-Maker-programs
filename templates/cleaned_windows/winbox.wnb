@@ -113,11 +113,11 @@
   "logoBeforeApp": null,
   "logoBeforeApp_stretch": 0,
   "wait_before_app_logo": true,
-  "delete_paths": "Program Files (x86)\\Microsoft\\Edge\nProgram Files (x86)\\Microsoft\\EdgeUpdate\nWindows\\SystemApps\\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\nWindows\\SystemApps\\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy\nWindows\\System32\\OneDriveSetup.exe\nWindows\\SysWOW64\\OneDriveSetup.exe\nWindows\\System32\\SnippingTool.exe\nWindows\\SysWOW64\\SnippingTool.exe\n\nProgram Files (x86)\\Windows Defender\nProgram Files\\Windows Defender\nProgram Files\\Windows Defender Advanced Threat Protection",
+  "delete_paths": "Program Files (x86)\\Microsoft\\Edge\nProgram Files (x86)\\Microsoft\\EdgeUpdate\nWindows\\SystemApps\\Microsoft.MicrosoftEdge_8wekyb3d8bbwe\nWindows\\SystemApps\\Microsoft.Windows.SecHealthUI_cw5n1h2txyewy\nWindows\\System32\\SnippingTool.exe\nWindows\\SysWOW64\\SnippingTool.exe\n\nProgram Files (x86)\\Windows Defender\nProgram Files\\Windows Defender\nProgram Files\\Windows Defender Advanced Threat Protection",
   "delete_dism": "",
   "delete_dism_universal": "",
-  "delete_dism_remove_package": "*Microsoft-Windows-Kernel-LA57-FoD\n*Microsoft-Windows-LanguageFeatures-Handwriting-en-us\n*Microsoft-Windows-LanguageFeatures-OCR-en-us\n*Microsoft-Windows-LanguageFeatures-Speech-en-us\n*Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us\n*Microsoft-Windows-MediaPlayer\n*Microsoft-Windows-MediaPlayer\n*Microsoft-Windows-MediaPlayer\n*Microsoft-Windows-MediaPlayer\n*Microsoft-Windows-TabletPCMath\n*Microsoft-Windows-Wallpaper-Content-Extended\n*Microsoft-Windows-ContactSupport\n*Microsoft-Windows-QuickAssist",
-  "delete_dism_remove_appx_package": "*Clipchamp.Clipchamp\n*Microsoft.BingNews\n*Microsoft.BingWeather\n*Microsoft.GamingApp\n*Microsoft.GetHelp\n*Microsoft.Getstarted\n*Microsoft.MicrosoftOfficeHub\n*Microsoft.MicrosoftSolitaireCollection\n*Microsoft.People\n*Microsoft.PowerAutomateDesktop\n*Microsoft.Todos\n*Microsoft.WindowsAlarms\n*microsoft.windowscommunicationsapps\n*Microsoft.WindowsFeedbackHub\n*Microsoft.WindowsMaps\n*Microsoft.WindowsSoundRecorder\n*Microsoft.Xbox.TCUI\n*Microsoft.XboxGamingOverlay\n*Microsoft.XboxGameOverlay\n*Microsoft.XboxSpeechToTextOverlay\n*Microsoft.YourPhone\n*Microsoft.ZuneMusic\n*Microsoft.ZuneVideo\n*MicrosoftCorporationII.MicrosoftFamily\n*MicrosoftCorporationII.QuickAssist\n*MicrosoftTeams\n*Microsoft.549981C3F5F10\n*Microsoft.Windows.SecHealthUI\n*Microsoft.MicrosoftEdge\n*Microsoft.MicrosoftEdgeDevToolsClient\n*Microsoft.XboxIdentityProvider\n*Microsoft.XboxApp\n*Microsoft.WindowsStore\n*Microsoft.WindowsCamera\n*Microsoft.WindowsCalculator\n*Microsoft.Windows.Photos\n*Microsoft.StorePurchaseApp\n*Microsoft.SkypeApp\n*Microsoft.OneConnect\n*Microsoft.Office.OneNote\n*Microsoft.MicrosoftStickyNotes\n*Microsoft.DesktopAppInstaller\n*Microsoft.3DBuilder\n*Microsoft.Messaging\n*Microsoft.ScreenSketch\n*Microsoft.YourPhone\n*Microsoft.MiracastView\n*Microsoft.549981C3F5F10",
+  "delete_dism_remove_package": "",
+  "delete_dism_remove_appx_package": "",
   "manual_setup": false,
   "manual_setup_complete": null,
   "manual_setup_error": null,
@@ -276,5 +276,10 @@
   "keyboard_filter_ForceOffAccessibility": true,
   "regtweak_overwrite_en": false,
   "regtweak_overwrite": null,
-  "firewall_disable": true
+  "firewall_disable": true,
+  "app_runAsSystem": false,
+  "app_uwp": "windows.immersivecontrolpanel_cw5n1h2txyewy!App",
+  "dism_cleanup": true,
+  "debloatware_excludeAll": false,
+  "debloatware_exclude": ""
 }
