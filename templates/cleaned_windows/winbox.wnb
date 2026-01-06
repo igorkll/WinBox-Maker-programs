@@ -78,7 +78,7 @@
     }
   ],
   "keyboard_layouts_firstAdded": true,
-  "forceIot": false,
+  "forceIot": true,
   "dc_use": false,
   "enable_hibernation": false,
   "enable_hiberboot": false,
