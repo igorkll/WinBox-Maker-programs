@@ -33,7 +33,7 @@
   "action_closingLaptop_dc": 4,
   "Architecture": "x64",
   "ProgramType": 4,
-  "LaunchMode": 1,
+  "LaunchMode": 0,
   "TweakList": [
     "Integrate vc redist",
     "Disable all boot UI",
